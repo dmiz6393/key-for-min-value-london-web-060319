@@ -7,6 +7,6 @@ ikea = {
 def key_for_min_value(ikea)
   return nil if ikea=={}
 ikea.collect do |furniture, amount|
-amount 
+if amount
 end
 end
