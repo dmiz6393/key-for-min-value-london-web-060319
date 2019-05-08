@@ -9,6 +9,6 @@ def key_for_min_value(ikea)
   smallest_value=nil 
   smallest_key=nil 
 ikea.collect do |furniture, amount|
-if smallest_value=nil ||
+if smallest_value=nil || amount<
 end
 end
